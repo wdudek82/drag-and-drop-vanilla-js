@@ -9,6 +9,9 @@ body {
 }
 
 .empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #fff;
   width: 160px;
   height: 160px;
@@ -26,11 +29,11 @@ body {
 }
 
 .hold {
-  border: solid #ccc 4px;
+  border: solid darksalmon 4px;
 }
 
 .hovered {
-  background: #f4f4f4;
+  background: #bbffcc;
   border-style: dashed;
 }
 
